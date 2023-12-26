@@ -43,9 +43,10 @@ return (
 };
 
 export default App;
+```
+### `ImageList.tsx`
 
-ImageList.tsx
-
+```tsx
 import React, { useState } from 'react';
 
 const ImageList: React.FC = () => {
@@ -53,7 +54,8 @@ const ImageList: React.FC = () => {
 };
 
 export default ImageList;
+```
 
-Notas
+## Notas
 Este proyecto utiliza React y la API de Unsplash para mostrar imágenes. Asegúrate de tener una conexión a Internet para poder realizar búsquedas.
 Se recomienda manejar adecuadamente las claves de acceso a la API y no compartirlas públicamente.
